@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+    
+}
 body{
     background: #000;
+    
 }
 
 .box{
@@ -10,7 +15,7 @@ body{
     width: 100vw;
 }
 .container{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 60%;
     width: 20%;
 }
@@ -29,9 +34,14 @@ button{
     font-weight: bold;
     background:inherit;
     color: white;
-    /* border: none; */
+    border: none;
     margin-left:10px;
 
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
 }
 
 .text{
@@ -44,4 +54,14 @@ button{
     padding: 5px;
 
     
+}
+.text input{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    border: none;
+    border-radius: 10px;
+    font-size: 26px;
+    text-align: right;
 }
